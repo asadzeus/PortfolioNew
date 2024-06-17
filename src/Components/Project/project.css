@@ -1,0 +1,56 @@
+.project{
+    height: 200px;
+    aspect-ratio: 2/2;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
+-moz-box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
+box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
+}
+
+.projectTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+}
+
+.projectFrame{
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    width: 70%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project:hover{
+    .projectFrame :first-child{
+        transform: scale(1.1);
+    }
+}   
+
+.projectImg{
+    width: 100px;
+    border-radius: 20px;
+    transition: .3s ease;
+    padding: 10px;
+}
+
+.comingSoon{
+    color: white;
+    transition: .3s ease;
+}
+
+.projectTitle{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex: 1;
+}

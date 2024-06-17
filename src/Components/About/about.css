@@ -1,0 +1,39 @@
+.about{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutLeft{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutFrame{
+    height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutImg{
+    height: 400px;
+}
+
+.aboutRight{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTexts{
+    width: 70%;
+}

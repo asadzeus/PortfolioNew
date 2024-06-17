@@ -1,0 +1,35 @@
+.skill{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border: 3px solid rgb(26, 26, 26);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.skill:hover{
+    .skillImage{
+        transform: scale(1.1);
+    }
+}
+
+.skillImage{
+    margin-top: 10px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease;
+}
+
+.skillName{
+    color: black;
+    font-weight: bold;
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
