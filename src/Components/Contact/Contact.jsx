@@ -15,8 +15,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_yj57ltp', 'template_p6gxrmb', form.current, {
-        publicKey: 'ts33rksjH-fXCyJCt',
+      .sendForm("service_jk6c8b8", "template_p6gxrmb", form.current, {
+        publicKey: "ts33rksjH-fXCyJCt",
       })
       .then(
         () => {
@@ -37,11 +37,11 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className="contactTop">
           <div className="contactTitle">Contact Me</div>
           <div className="contactFormTop">
-              <input type="text" placeholder='Your Name' name="user_name" className='input1' required/>
-              <input type="text" placeholder='Enter Email' name="user_email" className='input1' required/>
+              <input type="text" placeholder='Your Name' name="Name" className='input1' maxLength={30} required/>
+              <input type="text" placeholder='Enter Email' name="Email" className='input1' maxLength={40}  required/>
           </div>
           <div className="contactFormBottom">
-              <textarea type="text" placeholder='Enter Email' name="message" className='input2' required/>
+              <textarea type="text" placeholder='Enter Email' name="Message" className='input2' required/>
               <div className="sendBtn" onClick={sendEmail}> 
                 Send Message <SendRoundedIcon className='sendIcon'/>
               </div>
