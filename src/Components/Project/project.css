@@ -22,7 +22,7 @@ box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
     background-color: rgb(26, 26, 26);
     border-radius: 20px;
     width: 70%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
 }   
 
 .projectImg{
-    width: 100px;
+    width: 80px;
     border-radius: 20px;
     transition: .3s ease;
     padding: 10px;
@@ -53,4 +53,15 @@ box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
     align-items: center;
     font-weight: bold;
     flex: 1;
+}
+
+@media (max-width: 750px){
+    .project{
+        height: 150px;
+    }
+
+    .projectTitle{
+        font-size: small;
+    }
+    
 }

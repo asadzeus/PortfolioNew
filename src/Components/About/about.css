@@ -1,7 +1,6 @@
 .about{
     height: calc(100vh - 100px);
     width: 100%;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +23,7 @@
 }
 
 .aboutImg{
-    height: 400px;
+    height: 200px;
 }
 
 .aboutRight{
@@ -35,5 +34,34 @@
 }
 
 .aboutTexts{
-    width: 70%;
+    width: 80%;
+}
+
+.aboutTexts h1{
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+@media (max-width: 650px){
+    .about{
+        flex-direction: column;
+    }
+
+    .aboutLeft{
+        flex: 1;
+        margin-top: 15%;
+    }
+
+    .aboutRight{
+        flex: 3;
+        margin-bottom: 15%;
+    }
+
+    .aboutImg{
+        height: 250px;
+        width: max-content;
+    }
+
 }

@@ -9,7 +9,6 @@
 .contactContainer{
     width: 90%;
     height: 100%;
-    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@
     flex: 4;
     justify-content: center;
     align-items: center;
-    
     border-bottom: 2px solid rgb(49, 49, 49);
 }
 
@@ -147,3 +145,24 @@ input:focus::placeholder {
     }
 }
 
+@media (max-width: 900px) {
+
+    .contactTop {
+        width: 90%;
+    }
+    .input1{
+        width: 70%;
+        margin: 20px 3%;
+    }
+    .input2{
+        width: 80%;
+    }
+
+    .contactImgFrame{
+        height: 50px;
+
+        .contactImg{
+            font-size: 35px;
+        }
+    }  
+}
