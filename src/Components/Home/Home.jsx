@@ -27,7 +27,7 @@ const Home = () => {
       dots.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        size: Math.random() * (canvas.width % 2)+ 4,
+        size: Math.random() * 3+ 4,
         color: colors[Math.floor(Math.random() * colors.length)],
       });
     }
