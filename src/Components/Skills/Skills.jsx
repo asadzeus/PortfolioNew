@@ -19,7 +19,7 @@ const Skills = () => {
           <Skill name="C++" img="/cpluslogo.png"/>
           <Skill name="Javascript" img="/jslogo.png"/>
           <Skill name="Mysql" img="/mysqllogo.png"/>
-          <Skill name="Photoshop" img="/phplogo.png"/>
+          <Skill name="Php" img="/phplogo.png"/>
         </div>
 
       </div>
