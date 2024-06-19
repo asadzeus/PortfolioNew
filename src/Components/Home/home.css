@@ -76,16 +76,17 @@
 
 .imgFrame{
     display: flex;
-    width: fit-content;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .me{
-    height: 350px;
+    height: 300px;
 }
 
-@media (max-width: 650px){
+@media (max-width: 768px){
 
     .home{
         flex-direction: column;
@@ -111,9 +112,7 @@
     }
 
     .me{
-        height: 250px;
+        max-height: 200px;
     }
-
-
 
 }

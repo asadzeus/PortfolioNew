@@ -46,29 +46,30 @@ box-shadow: 0px 7px 20px -5px rgba(71,71,71,0.88);
     flex-wrap: wrap;
 }
 
-@media (width > 1050px){
+
+@media (max-width : 480px){
     .skill{
-        height: 35%;
+        height: 20%;
     }
 
     .skillRow{
-        height: 70%;
-        width: 90%;
-    }
-}
-
-@media (width < 1050px){
-    .skill{
-        height: 35%;
-    }
-
-    .skillRow{
-        height: 70%;
+        height: 65%;
         width: 100%;
     }
+    .skillName{
+        font-size: xx-small;
+    }
+    .skillTitle{
+        font-size: x-large;
+        gap: 15px;
+    
+        .skillIcon{
+            font-size: 40px;
+        }
+    }
 }
 
-@media (max-width : 1000px){
+@media (min-width : 480px){
     .skill{
         height: 25%;
     }
@@ -80,17 +81,22 @@ box-shadow: 0px 7px 20px -5px rgba(71,71,71,0.88);
     .skillName{
         font-size: x-small;
     }
+
 }
 
-@media (max-width : 650px){
+
+@media (min-width : 768px){
     .skill{
-        height: 20%;
+        height: 27%;
     }
 
     .skillRow{
         height: 70%;
         width: 90%;
     }
-
+    .skillName{
+        font-size: x-small;
+    }
 }
+
 

@@ -44,7 +44,7 @@
     width: fit-content;
 }
 
-@media (max-width: 650px){
+@media (max-width: 768px){
     .about{
         flex-direction: column;
     }
@@ -60,8 +60,33 @@
     }
 
     .aboutImg{
-        height: 250px;
+        height: 200px;
         width: max-content;
     }
+
+    .aboutTexts h1{
+        font-size: x-large;
+    }
+
+    .aboutTexts h3{
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 481px){
+    .aboutTexts h1{
+        font-size: large;
+    }
+
+    .aboutTexts h3{
+        font-size: small;
+    }
+
+    .aboutImg{
+        height: 150px;
+        width: max-content;
+    }
+
 
 }
