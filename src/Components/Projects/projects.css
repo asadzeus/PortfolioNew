@@ -117,3 +117,23 @@
     }
     
 }
+
+@media (min-width: 960px){
+    .projectsContainer{
+        height: 95%;
+    }
+
+    .row{
+        width: 80%;
+        flex: 2;
+    }
+
+    .project{
+        height: 200px;
+    }
+
+    .projectTitle{
+        font-size: small;
+    }
+    
+}
