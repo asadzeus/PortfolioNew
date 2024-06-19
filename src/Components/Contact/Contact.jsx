@@ -41,10 +41,10 @@ const Contact = () => {
               <input type="text" placeholder='Enter Email' name="Email" className='input1' maxLength={40}  required/>
           </div>
           <div className="contactFormBottom">
-              <textarea type="text" placeholder='Enter Email' name="Message" className='input2' required/>
-              <div className="sendBtn" onClick={sendEmail}> 
+              <textarea type="text" placeholder='Message' name="Message" className='input2' required/>
+              <button className="sendBtn" type="submit" > 
                 Send Message <SendRoundedIcon className='sendIcon'/>
-              </div>
+              </button>
               
           </div>
         </form>
