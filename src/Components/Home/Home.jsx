@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import "./home.css";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 import { useTypewriter, Cursor } from "react-simple-typewriter";

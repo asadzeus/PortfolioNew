@@ -16,17 +16,15 @@ box-shadow: 0px 7px 20px -10px rgba(71,71,71,0.88);
     justify-content: center;
     align-items: center;
     flex: 5;
+    background: #292929;
 }
 
 .projectFrame{
-    background-color: rgb(26, 26, 26);
-    border-radius: 20px;
-    width: 70%;
-    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .project:hover{
     .projectFrame :first-child{
