@@ -88,7 +88,7 @@ const Home = () => {
       loop: {},
   });
 
-  const resume = "/cvnew.pdf"
+  const resume = "/cvnew2.pdf"
 
   return (
     <>
