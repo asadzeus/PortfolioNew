@@ -50,7 +50,7 @@ const Contact = () => {
         </form>
 
         <div className="contactBottom">
-          <a href="https://www.instagram.com/alper1.ertugrul/" target='_blank'><div className="contactImgFrame"><InstagramIcon className='contactImg'/></div></a>
+          <a href="https://www.instagram.com/vixy.games/" target='_blank'><div className="contactImgFrame"><InstagramIcon className='contactImg'/></div></a>
           <a href="https://www.youtube.com/channel/UCPQrHrX96xhsyXcTdJpN39w" target='_blank'><div className="contactImgFrame"><YouTubeIcon className='contactImg'/></div></a>
           <a href="https://www.linkedin.com/in/alper-ertugrul-97b03b1b8/" target='_blank'><div className="contactImgFrame"><LinkedInIcon className='contactImg'/></div></a>
           <a href="https://github.com/asadzeus?tab=repositories" target='_blank'><div className="contactImgFrame"><GitHubIcon className='contactImg'/></div></a>
