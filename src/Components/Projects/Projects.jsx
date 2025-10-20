@@ -10,6 +10,7 @@ const Projects = () => {
         <div className="row">
         <Project link="https://vixygames.vercel.app/" img="/arkaplansızlogo.png" name="Vixy Games"/>
         <Project link="https://barbershopsimulator.vercel.app/" img="/barbershopicon.png" name="Barber Shop Simulator"/>
+        <Project link="https://dogjump.vercel.app/" img="/dogjumplogo.png" name="Dog Jump"/>
         <Project link="https://marketplace.visualstudio.com/items?itemName=VixyGames.easywebcreator-v2&ssr=false#review-details/" img="/ben2.png" name="Easy Web Creator"/>
         <Project link="https://alpersfood.vercel.app/" img="/foodlogo.png" name="Alper's Food"/>
         <Project link="https://imagetotextai.netlify.app/" img="/imgtotextlogo.png" name="Img To Text Converter"/>
